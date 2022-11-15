@@ -325,7 +325,7 @@ nav#mainNav .nav-item:hover {
 .smallThumb {
     position: absolute;
     left: -210px;
-    top: -145px;
+    top: -70px;
     z-index: 9;
 }
 
@@ -616,6 +616,7 @@ section.team{
 .content p{
     font-size: 16px;
     font-weight: 400;
+    text-align: justify;
 }
 .blueBtn{
     border:solid 2px #fff
