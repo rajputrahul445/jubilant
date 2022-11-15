@@ -325,7 +325,7 @@ nav#mainNav .nav-item:hover {
 .smallThumb {
     position: absolute;
     left: -210px;
-    top: -70px;
+    top: -40px;
     z-index: 9;
 }
 
@@ -338,7 +338,8 @@ nav#mainNav .nav-item:hover {
     background: rgb(37,136,204);
     background: linear-gradient(180deg, rgba(37,136,204,1) 0%, rgba(31,117,192,1) 30%, rgba(26,102,183,1) 60%, rgba(23,93,177,1) 100%);
     display: inline-flex;
-    padding: 9px 20px;
+    padding: 6px 20px;
+    font-size: 13px;
     color: #fff;
     border-radius: 10px;
     border: solid 1px #fff;
