@@ -1,0 +1,269 @@
+/*@media screen and (min-width: 1366px) {
+    .container{max-width: 1250px;}
+}*/
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .testimonial .owl-nav button.owl-next {
+        left: 64%;
+    }
+    .testimonial .owl-nav button.owl-prev {
+        left: 60%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footerLink:first-child {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .footerLink ul, .useList {
+        justify-content: center;
+    }
+    .teamBx {
+        flex: calc(100% / 3 - 30px);
+        max-width: calc(100% / 3 - 30px);
+    }
+
+    .content{
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        padding-top: 86px;
+        overflow-x: hidden;
+    }
+    .mobile {
+        display: block !important;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .topHeader .d-flex {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    nav#mainNav .nav-item {
+        padding: 15px 0;
+        border-bottom: solid 1px #e4e7ee;
+    }
+    nav#mainNav .nav-item {
+        padding: 0 0;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav#mainNav .nav-item>a {
+        padding: 15px 0;
+    }
+    nav#mainNav .nav-item:hover {
+        background: transparent;
+        color: #000;
+    }
+    nav#mainNav .nav-item:hover>a {
+        color: #000;
+    }
+    nav#mainNav .nav-item:hover i {
+        opacity: 1;
+    }
+    
+    .fa-circle.dropmenuToggle:before {
+        content: "\f107";
+    }
+    .mainHeader.fixedHeader {
+        top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: -0px;
+        background: #fff;
+        height: 100vh;
+        padding: 20px;
+        z-index: 9;
+        display: block;
+        transform: translateX(-100%);
+        transition: all 400ms ease;
+    }
+    .cross-toggler, .searchBar .searchToggle {
+        background: #fff;
+        color: #b9b9b9;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid #e4e7ee;
+        font-size: 20px;
+    }
+    ul.navbar-nav.ml-auto {
+        height: calc(100vh - 60px);
+        overflow: auto;
+    }
+    div#navbarSupportedContent.active {
+        left: 100%;
+        transition: all 400ms ease;
+    }
+    body.transform {
+        transform: translateX(-320px);
+        overflow: hidden;
+    }
+    .overLay {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0 0 0 / 51%);
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .overLay.active {
+        display: block;
+    }
+    nav#mainNav {
+        padding: 8px 15px;
+        background: #ffffff !important;
+    }
+    a.navbar-brand.p-0 {
+        position: static;
+    }
+
+    ul.listInline.contactList {
+        margin: 0;
+        gap: 10px;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    nav#mainNav .container {
+        padding: 0;
+    }
+    .heading {
+        font-size: 45px !important;
+    }
+
+    
+    .searchBar {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        bottom: auto;
+        top: 0;
+        background: #000000d6;
+        z-index: 999;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchBar.active {
+        display: flex;
+    }
+
+    .searchToggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .dropdownMenu {
+        position: static;
+        width: 100%;
+        min-width: 100%;
+        display: none !important;
+    }
+
+    .dropdown.active .dropdownMenu {
+        display: block !important;
+    }
+    .searchBar .searchToggle {
+        position: absolute !important;
+        top: 20px;
+        right: 20px;
+    }
+    .searchBarInr {
+        width: 100%;
+    }
+    .bannerContentInr {
+        max-width: 100%;
+    }
+
+    .bannerContentInr h1 {
+        font-size: 30px;
+    }
+
+    .useList {
+        flex-wrap: wrap;
+    }
+
+    .useListBx {
+        border-right: navajowhite;
+    }
+
+    .aboutus .pr-5.pl-5, .life .pl-5.pr-5 {
+        padding: 15px !important;
+    }
+
+    .smallThumb {
+        display: none;
+    }
+
+    .footerList {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .testimonial{
+        padding: 50px 30px;
+    }
+    .content p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .blueBtn {
+        padding: 7px 15px;
+        font-size: 12px !important;
+    }
+    .footerLink:last-child {
+        text-align: center;
+        width: 100%;
+    }
+    .teamBreadcrum li{
+        font-size: 20px;
+    }
+    section.team .customSelect {
+        margin-bottom: 10px;
+    }
+    .footerLink h6{
+        margin-top: 20px;
+    }
+    .aboutus .row.d-flex.align-items-end {
+        align-items: center !important;
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+    .teamBx {
+        flex: calc(100% / 2 - 30px);
+        max-width: calc(100% / 2 - 30px);
+    }
+
+    
+}
+@media only screen and (max-width: 460px) {
+    .teamBx {
+        flex: calc(100% / 1 );
+        max-width: calc(100% / 1 );
+    }
+}
